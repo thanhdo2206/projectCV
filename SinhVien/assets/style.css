@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+}
+
+.menu {
+  background-color: #7386d5;
+  color: #fff;
+  height: 100vh;
+  padding: 0;
+}
+
+.sidebar-header {
+  padding: 30px 10px;
+  background: rgb(96 116 202);
+}
+
+.list_menu {
+  list-style: none;
+  padding: 30px 0;
+  border-bottom: 1px solid #000;
+}
+
+.list_menu li {
+  padding: 10px 12px;
+  font-size: 20px;
+}
+
+.list_menu li.active {
+  background-color: rgb(96 116 202);
+}
+
+.list_menu li:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #7386d5;
+}
+
+.list_menu li i {
+  margin-right: 10px;
+}
+
+.content {
+  background: linear-gradient(to right, #acb6e5, #74ebd5);
+  height: 100vh;
+}
+
+#btnAdd {
+  float: right;
+}
+
+.block_search {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#search_name {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.btn_search {
+  padding: 4px 14px;
+}
+
+.btn_search:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+/* css modal add */
+
+#modelAdd .modal-header {
+  padding: 0rem 1rem;
+}
+
+#modelAdd .modal-title {
+  flex: 1;
+  text-align: center;
+  font-size: 34px;
+}
+
+.form_student {
+  box-shadow: 0 9px 50px hsl(20deg 67% 75% / 31%);
+  background: linear-gradient(-225deg, #e3fdf5 50%, #ffe6fa 50%);
+}
+
+.form_student > .form-group {
+  display: flex;
+  border: 1px solid #ccc;
+  margin-bottom: 32px;
+  align-items: center;
+  position: relative;
+}
+
+.form_student > .form-group > span:first-of-type {
+  border-right: 1px solid #ced4da;
+  padding: 6px 9px;
+  background-color: #e9ecef;
+}
+
+.form_student > .form-group > input {
+  border: none;
+  background-color: #fff;
+  padding: 16px 10px;
+  font-size: 14px;
+}
+
+.form_student > .form-group > span:nth-of-type(2) {
+  position: absolute;
+  left: 0;
+  top: 34px;
+  font-size: 14px;
+  color: red;
+}
+
+.form_student > .form-group > .maSV_disabled {
+  background-color: #eee;
+  opacity: 0.8;
+}
+
+#nameSV {
+  text-transform: capitalize;
+}
+
+#table-scroll {
+  border: 1px solid #ccc;
+  height: 54vh;
+  overflow: auto;
+}
+
+.btns_storage {
+  margin-top: 20px;
+}
