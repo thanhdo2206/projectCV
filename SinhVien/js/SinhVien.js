@@ -19,13 +19,13 @@ class SinhVien {
 
     calculateAvg() {
         let avg = (this.phyPoint + this.chemPoint + this.mathPoint) / 3;
-        return avg;
+        return avg.toFixed(2);
     }
 
     sortType(){
         let avg = this.calculateAvg();
 
-        if(avg > 8.5) return "Giỏi";
+        if(avg >8.5) return "Giỏi";
         else if(avg > 6) return "Khá";
         else return "Trung Bình";
     }

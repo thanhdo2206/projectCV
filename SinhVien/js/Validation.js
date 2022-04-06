@@ -9,12 +9,13 @@ class Validation {
   }
 
   validateMSSV(mssv) {
+    //tất cả đều là số
     const re = /^\d+$/;
     return re.test(mssv);
   }
 
   validateFullName(name) {
-    //kiêm tra tất cả là chữ
+    //kiêm tra tất cả là chữ, không dấu
     const re = /^[A-Za-z ]+$/;
     return re.test(name);
   }
