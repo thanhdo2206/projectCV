@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 20px 300px;
+    background-image: url("../bg1.png");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    overflow: auto;
+}
+
+.title{
+    text-align:center;
+    font-size: 40px;
+}
+
+.container_question{
+    padding:20px 0px;
+    font-size: 18px;   
+   
+}
+
+.question_item{
+    margin-bottom: 20px;
+}
+
+.question_content{
+    font-size: 24px;
+    margin-bottom:10px;
+}
+
+.answer_fill{
+    width: 64%;
+    padding: 5px 20px;
+    font-size: 18px;
+}
+
+.btn_submit{
+    font-size: 20px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
